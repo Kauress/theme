@@ -1,0 +1,29 @@
+/* NavBar */
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #000000;
+
+
+}
+
+.nav.navbar-nav >li>a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 4;
+    margin-right: 4px;
+    
+
+}
+    
+.nav.navbar-nav >li>a:hover {
+    color:#2bde73 ;
+}
+
+#brand-image{
+    margin: 2px;
+    line-height: 0;
+}
+
