@@ -1,0 +1,47 @@
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 0px;
+        text-align: center;
+        
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -40px;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #000000;
+}
+
+.nav.navbar-nav >li>a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 4;
+    margin: 15px;
+    padding: 15px;
+
+}
+ .nav.navbar-nav >li>a:hover {
+    color:#2bde73 ;
+}
+
+  
+@media screen and (max-width:1200px){
+   .nav.navbar-nav >li>a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 4;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+    
+}
