@@ -22,8 +22,29 @@
     color:#2bde73 ;
 }
 
-#brand-image{
-    margin: 2px;
-    line-height: 0;
+/* Mobile and Tablet Styles */
+@media (max-width: 991px) {
+      
+.nav.navbar-nav >li>a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 4;
+    margin-right: 0px;    
+
+}     
+   
 }
 
+@media (max-width: 769px) {
+      
+.nav.navbar-nav >li>a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-right: 0px;    
+
+}     
+   #nav-brand{
+    display:hidden;
+   }
+}
